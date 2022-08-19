@@ -1,0 +1,562 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    background: linear-gradient(to top, rgb(35, 35, 35), rgb(0, 0, 0));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* sign-in-form */
+.main {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 400px;
+    height: 380px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.input1 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 320px;
+    height: 50px;
+}
+
+button {
+    width: 320px;
+    position: relative;
+    left: 30px;
+    border-radius: 10px;
+}
+
+h5 {
+    position: relative;
+    left: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#icon1 {
+    position: relative;
+    top: -8px;
+    left: 320px;
+}
+
+#icon2 {
+    position: relative;
+    top: 25px;
+}
+
+#icon1 {
+    display: none;
+}
+
+#loader {
+    display: none;
+    position: relative;
+    left: 500px;
+    top: 300px;
+    font-size: 2000px;
+    color: black;
+}
+
+.quiz-app {
+    display: none;
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    width: 420px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    border-radius: 10px;
+}
+
+#hedain {
+    position: relative;
+    top: 5px;
+}
+
+#heading2 {
+    position: relative;
+    left: -52px;
+    top: -22px;
+}
+
+.para {
+    position: relative;
+    top: -35px;
+    left: 17px;
+}
+
+#join {
+    border-color: black;
+    position: relative;
+    top: -25px;
+    width: 350px;
+}
+
+
+.main1 {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    border-radius: 10px;
+    width: 400px;
+    height: 530px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* web&apphtmlpage */
+.main3 {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    height: 657px;
+}
+
+#heading8 {
+    position: relative;
+    top: 50px;
+    left: -150px;
+}
+
+#para2 {
+    font-size: 20px;
+    position: relative;
+    top: -35px;
+    left: 400px;
+}
+
+#hr5 {
+    position: relative;
+    top: 20px;
+    color: rgb(0, 0, 0);
+    width: 1140px;
+}
+
+.mainaccordian {
+    position: relative;
+    top: 20px;
+    left: -5px;
+}
+
+#th {
+    position: relative;
+    left: 30px;
+}
+
+.td {
+    position: relative;
+    left: 30px;
+}
+
+#button10 {
+    width: 100px;
+    position: relative;
+    top: 5px;
+    left: -2px;
+}
+
+
+/* quiz.html */
+#heading9 {
+    position: relative;
+    top: 150px;
+    left: -80px;
+}
+
+#text {
+    position: relative;
+    top: 150px;
+    left: 240px;
+}
+
+#button12 {
+    width: 200px;
+    position: relative;
+    top: 160px;
+    left: 380px;
+}
+
+.text1 {
+    position: relative;
+    left: 260px !important;
+}
+
+
+.text2 {
+    position: relative;
+    left: 335px !important;
+}
+
+/* all quiz.html */
+.white {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    width: 720px;
+    position: relative;
+    top: 100px;
+    height: 300px;
+    left: 200px;
+    border-radius: 10px;
+}
+
+#heading21 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.div input {
+    position: relative;
+    /* left: 30px; */
+    top: 20px;
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    cursor: pointer;
+}
+
+label {
+    position: relative;
+    top: 19px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#next {
+    width: 100px;
+    position: relative;
+    left: 550px;
+    top: 60px;
+}
+
+.scoreArea {
+    display: none;
+}
+
+#showScore {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+
+#button34 {
+    width: 100px;
+    position: relative;
+    left: 95px;
+    top: 10px;
+}
+
+#heading50 {
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
+
+#countDown p {
+    position: relative;
+    left: 820px;
+    top: 110px;
+    font-size: 30px;
+}
+.white1 {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    width: 720px;
+    position: relative;
+    top: 100px;
+    height: 300px;
+    left: 200px;
+    border-radius: 10px;
+}
+
+#heading22 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.div1 input {
+    position: relative;
+    top: 20px;
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    cursor: pointer;
+}
+
+label {
+    position: relative;
+    top: 19px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#next1 {
+    width: 100px;
+    position: relative;
+    left: 550px;
+    top: 60px;
+}
+
+.scoreArea1 {
+    display: none;
+}
+
+#showScore1 {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+
+#button35 {
+    width: 100px;
+    position: relative;
+    left: 95px;
+    top: 10px;
+}
+
+#heading51 {
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
+
+#countDown1 p {
+    position: relative;
+    left: 820px;
+    top: 110px;
+    font-size: 30px;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .main {
+        position: relative;
+        left: 0px;
+        width: 350px;
+    }
+
+    .input1 {
+        position: relative;
+        left: 20px;
+        width: 310px;
+    }
+
+    button {
+        width: 285px;
+    }
+
+    h5 {
+        position: relative;
+        left: 70px;
+    }
+
+    #icon1 {
+        position: relative;
+        top: -8px;
+        left: 310px;
+    }
+
+    .quiz-app {
+        width: 350px;
+        position: relative;
+        left: 0px;
+    }
+
+    #hedain {
+        position: relative;
+        left: -20px;
+        font-size: 30px;
+    }
+
+    #heading2 {
+        position: relative;
+        left: -60px;
+        font-size: 30px;
+    }
+
+    .para {
+        position: relative;
+        left: 10px;
+    }
+
+    #join {
+        width: 280px;
+    }
+
+    /* sign-up page */
+    .main1 {
+        width: 350px;
+        position: relative;
+        left: 0px;
+    }
+
+    #heading {
+        position: relative;
+        left: 60px;
+    }
+
+    /* loader */
+    #loader {
+        position: relative;
+        left: 160px;
+    }
+
+    /* web & app html page */
+    .main3 {
+        overflow-x: hidden;
+        height: 667px;
+    }
+
+    #heading8 {
+        position: relative;
+        top: 50px;
+        left: -10px;
+    }
+
+    #para2 {
+        position: relative;
+        left: 2px;
+        top: -5px;
+    }
+
+    .mainaccordian {
+        position: relative;
+        left: -20px;
+    }
+
+    /* quiz.html */
+    #heading9 {
+        position: relative;
+        left: -15px;
+    }
+
+    #text {
+        position: relative;
+        left: 15px;
+        font-size: 15px;
+    }
+
+    #button12 {
+        width: 100px;
+        position: relative;
+        left: 110px;
+    }
+
+    /* quiz.css */
+    .text1 {
+        position: relative;
+        left: 30px !important;
+    }
+
+    /* quiz.js */
+    .text2 {
+        position: relative;
+        left: 70px !important;
+        font-size: 30px;
+    }
+
+    /* all quiz.html */
+    .white {
+        width: 350px;
+        position: relative;
+        height: 300px;
+        left: 0px;
+    }
+
+    #next {
+        position: relative;
+        left: 220px;
+    }
+
+    #countDown p {
+        position: relative;
+        left: 290px;
+        font-size: 20px;
+    }
+
+    #heading21 {
+        font-size: 15px !important;
+    }
+
+    #option1 {
+        font-size: 13px;
+    }
+
+    #option2 {
+        font-size: 13px;
+    }
+
+    #option3 {
+        font-size: 13px;
+    }
+
+    #option4 {
+        font-size: 13px;
+    }
+
+    #showScore {
+        position: relative;
+        left: 20px;
+        top: 70px;
+    }
+
+}
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+input:hover{
+    background: transparent;
+}
+input::placeholder{
+    color: white;
+    margin-bottom: 30px;
+}
+#loginbtn{
+    color: white;
+}
