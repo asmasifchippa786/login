@@ -4,29 +4,29 @@
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background: linear-gradient(to top, rgb(35, 35, 35), rgb(0, 0, 0));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color: white !important;
+
 }
 
-/* sign-in-form */
 .main {
     background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 0 0 30px rgb(0, 0, 0);
     border-radius: 10px;
     width: 400px;
-    height: 380px;
+height: 100%;
+align-items: center;
+text-align: center;
+ padding:10px;
     margin: auto;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
 h1 {
@@ -38,52 +38,34 @@ h1 {
     border-top: none;
     border-left: none;
     border-right: none;
-    position: relative;
-    top: 20px;
-    left: 30px;
+    margin-bottom: 20px;
     width: 320px;
     height: 50px;
 }
 
-button {
-    width: 320px;
-    position: relative;
-    left: 30px;
-    border-radius: 10px;
-}
 
-h5 {
-    position: relative;
-    left: 90px;
-}
+
+
 
 a {
     text-decoration: none;
 }
 
 #icon1 {
-    position: relative;
-    top: -8px;
-    left: 320px;
+   
+    color: black !important;
 }
 
 #icon2 {
     position: relative;
     top: 25px;
+    color: black !important;
 }
 
 #icon1 {
     display: none;
 }
 
-#loader {
-    display: none;
-    position: relative;
-    left: 500px;
-    top: 300px;
-    font-size: 2000px;
-    color: black;
-}
 
 .quiz-app {
     display: none;
@@ -124,17 +106,24 @@ a {
     background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
     border-radius: 10px;
     width: 400px;
-    height: 530px;
+height: 100%;
+align-items: center;
+text-align: center;
+ padding:10px;
     margin: auto;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
+button{
+    margin-top: 30px;
+    width: 100%;
 
-/* web&apphtmlpage */
+}
 .main3 {
     background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
-    height: 657px;
+    height:100%;
 }
 
 #heading8 {
@@ -181,7 +170,7 @@ a {
 }
 
 
-/* quiz.html */
+
 #heading9 {
     position: relative;
     top: 150px;
@@ -232,7 +221,7 @@ a {
 .div input {
     position: relative;
     /* left: 30px; */
-    top: 20px;
+    bottom: 20px;
     background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
     cursor: pointer;
 }
@@ -305,7 +294,7 @@ ul li {
 
 .div1 input {
     position: relative;
-    top: 20px;
+    bottom: 20px;
     background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
     cursor: pointer;
 }
@@ -335,28 +324,21 @@ ul li {
     width: 300px;
     height: 120px;
     border-radius: 10px;
-    position: relative;
-    top: 60px;
-    left: 200px;
+
 }
 
 #button35 {
     width: 100px;
-    position: relative;
-    left: 95px;
-    top: 10px;
+
 }
 
 #heading51 {
-    position: relative;
-    top: 12px;
+
     text-align: center;
 }
 
 #countDown1 p {
-    position: relative;
-    left: 820px;
-    top: 110px;
+
     font-size: 30px;
 }
 
@@ -367,8 +349,7 @@ ul li {
 @media (min-width: 320px) and (max-width: 480px) {
 
     body {
-        overflow-x: hidden;
-        overflow-y: hidden;
+        overflow: hidden;
     }
 
     .main {
@@ -377,20 +358,11 @@ ul li {
         width: 350px;
     }
 
-    .input1 {
-        position: relative;
-        left: 20px;
-        width: 310px;
-    }
-
+   
     button {
         width: 285px;
     }
 
-    h5 {
-        position: relative;
-        left: 70px;
-    }
 
     #icon1 {
         position: relative;
@@ -426,16 +398,11 @@ ul li {
     }
 
     /* sign-up page */
-    .main1 {
-        width: 350px;
-        position: relative;
-        left: 0px;
-    }
 
-    #heading {
-        position: relative;
-        left: 60px;
+    #heading{
+        margin-top: 30px;
     }
+    
 
     /* loader */
     #loader {
@@ -559,4 +526,24 @@ input::placeholder{
 }
 #loginbtn{
     color: white;
+}
+@media (max-width:600px) {
+    
+    .main{
+        padding: 0;
+        padding-bottom: 10px;
+        left: 0;  
+        overflow: hidden;
+    }
+}
+.text{
+    font-size: 30px;
+}
+.navbar{
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(236, 51, 51));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
 }
